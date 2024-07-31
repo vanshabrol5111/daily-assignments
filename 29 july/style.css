@@ -1,0 +1,19 @@
+.section_1{
+    background-color: antiquewhite;
+}
+.section_2{
+    background-color: rgb(172, 181, 172);
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+}
+.abc{
+    margin-left: 30px;
+}
+.section_1>h1{
+    font-family:monospace ;
+    color: blue;
+}
+.def{
+    margin: 30px;
+}
