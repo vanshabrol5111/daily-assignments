@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent-1{
+    display: flex;
+    flex-direction: column;
+    border: 3px;
+}
+.parent{
+    display: flex;
+  
+    justify-content: center;
+    margin-left: 65px;
+    margin-right: 65px;
+    border: 2px solid rgb(8, 23, 8);
+    height: 400px;
+
+}
+.parent1{
+    /* display: flex; */
+    background-color: ;
+}
+.van{
+margin-left: 3px;
+    width: 349px;
+}
+.sid{
+    width: 349px;
+    margin-left: 3px;
+}
+.abc{
+    width: 180px;
+}
+.esh{
+    width: 349px;
+  
+    height: 60px;
+    margin-left: 3px;
+}
+body{
+    background-color: rgb(171, 203, 218); 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100vh;
+    
+}
+.Big{
+    border: 1px solid rgb(59, 58, 58);
+    background-color: white;
+    height: 610px;
+    width: 600px;
+    margin: 0 auto;
+    
+    border: 2px solid rgb(1, 15, 1);
+    display: flex;
+    flex-direction: column;
+    he
+}
