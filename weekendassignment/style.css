@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    justify-content:flex-end;
+    margin-top: 25px;
+}
+.parent1{
+    background-color: #65622b;
+    width: 100%;
+}
+body{
+    background-image:url(https://plus.unsplash.com/premium_photo-1721557752718-f24f0ffd1105?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D)  ;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; 
+   background-size: 100% 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100px;
+    overflow-y: hidden;
+}
+.par{
+    margin-left: 5%;
+    font-size: 400%;
+}
+footer{
+    
+    height: 100px;
+    color: aliceblue;
+    background-color: #65622b;
+    
+    
+}
