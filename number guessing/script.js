@@ -15,7 +15,7 @@ do{
         attempt++;
         if(guess==random)
         {
-            alert(`woohoo ${guess} in ${attempt}`)
+            alert(`wooho! you got correct guess ${guess} in  ${attempt} attempts`)
         }
         else if( Math.abs(guess-random)<25)
         {
