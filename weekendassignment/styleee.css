@@ -15,7 +15,7 @@
     
 }
 body{
-    background-image:url(../pexels-danielabsi-952670.jpg)  ;
+    background-image:url(./pexels-danielabsi-952670.jpg)  ;
     background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed; 
@@ -37,7 +37,7 @@ nav{
     border:2px solid white ;
     width: 280px;
     margin-top: 50px;
-    background-image: url(../WhatsApp\ Image\ 2024-08-05\ at\ 12.22.52_5f2dd368.jpg);
+    background-image: url(./WhatsApp\ Image\ 2024-08-05\ at\ 12.22.52_5f2dd368.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
