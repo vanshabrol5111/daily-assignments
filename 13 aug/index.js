@@ -2,13 +2,16 @@
 let library = [];
 function addBook(id, title, author) 
 {
+
 library.push({
     id:id,
     title:title,
     author:author,
     isBorrowed:false,
+ 
 
 });
+localStorage.setItem("books",JSON.stringify(library))
 }
   
 function borrowBook(id)
@@ -28,6 +31,7 @@ function borrowBook(id)
      {
         console.log(`No book found with ID" ${id}"`);
     }
+    localStorage.setItem("books",JSON.stringify(library))
 }
 
 
@@ -44,6 +48,7 @@ function returnBook(id)
     } else {
         console.log(`No book found with id ${id}`);
     }
+    localStorage.setItem("books",JSON.stringify(library))
 }
 
 
@@ -56,6 +61,7 @@ function listAvailableBooks()
                 console.log( `id"${item.id}", title "${item.title}", author"${item.author}"`)
             }
         }
+        let abc=JSON.parse(localStorage.getItem("library"))
 
 }
 
@@ -74,20 +80,28 @@ function searchBook(title)
         console.log(`No book found with title "${title}"`);
        
     }
+    let abc=JSON.parse(localStorage.getItem("library"))
+
 }
 
 addBook(1, 'hindi', 'Vansh');
 addBook(2, 'english', 'Sidharth');
 addBook(3, 'math', 'Eshaan ');
-console.log(library)
+console.log(library);
+let xyz=JSON.parse(localStorage.getItem("library"))
+
 
 
  borrowBook(2);
 borrowBook(5);
+let def=JSON.parse(localStorage.getItem("library"))
+
 
 
 returnBook(3);
 returnBook(6);
+let van=JSON.parse(localStorage.getItem("library"))
+
 
 listAvailableBooks();
 
