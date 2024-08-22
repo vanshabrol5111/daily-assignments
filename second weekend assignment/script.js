@@ -48,6 +48,7 @@ document.getElementById('add-book-btn').addEventListener('click', () => {
     }
 });
 
+
 // Function to toggle book borrow status
 function toggleBorrowStatus(id) {
     const book = library.find(item => item.id === id);

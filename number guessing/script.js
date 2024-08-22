@@ -2,7 +2,7 @@ alert("Welcome");
 var random = 0;
 
 var run =Number(1);
-var counter =0;
+
 var guess =-1;
 var attempt =0;
 
