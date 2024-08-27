@@ -1,6 +1,6 @@
 const searchinput = document.querySelector(".searchinput");
 const searchButton = document.querySelector("[searchbutton]");
-const searchResult = document.querySelector("[sr]");
+const searchResult = document.querySelector("[searchResult]");
 import bigsearch from "./movie.js"
 function searchinputevent(elem,data){
   
