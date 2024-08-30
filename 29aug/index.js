@@ -2,7 +2,7 @@ const {listFiles,createDirectory,ReadFileContent,WritetoFile} =require("./fileSy
 
 listFiles(__dirname);
 
-createDirectory("DUMMY2.txt");
+createDirectory("DUMMY.txt");
 
 ReadFileContent("reading.txt");
 
