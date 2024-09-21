@@ -1,0 +1,29 @@
+ export const data=[{
+    id:"1",
+    name:"vansh",
+    age:"21",
+    email:"vanshab@gmail.com",
+    contactNumber:"941911****"
+},
+{
+    id:'2',
+    name:"eshaan",
+    age:"23",
+    email:"eshaansh@gmail.com",
+    contactNumber:"941912****"
+},
+{
+    id:'3',
+    name:"sid",
+    age:"20",
+    email:"sidharthgp@gmail.com",
+    contactNumber:"941913****"
+},
+{
+    id:'4',
+    name:"ankit",
+    age:"22",
+    email:"ankitch@gmail.com",
+    contactNumber:"941914****"
+},
+]
